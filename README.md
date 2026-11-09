@@ -16,8 +16,8 @@ The inbox and the email sending are fake (hardcoded) so the focus stays on the a
 You need Python 3.13 and [uv](https://docs.astral.sh/uv/).
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/patrkdev/email-assistant.git
+cd email-assistant
 uv sync          # or: uv add -r requirements.txt on a fresh project
 ```
 
