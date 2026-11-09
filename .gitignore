@@ -1,0 +1,122 @@
+# ---------- Secrets and environment files ----------
+.env
+.env.*
+!.env.example
+.envrc
+*.pem
+*.key
+.pypirc
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ---------- Packaging and build ----------
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---------- Package managers ----------
+# uv.lock is intentionally NOT ignored, commit it for reproducible installs
+.pdm-python
+.pdm-build/
+.pixi
+__pypackages__/
+
+# ---------- Jupyter and IPython ----------
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ---------- Testing and coverage ----------
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+nosetests.xml
+*.cover
+*.py.cover
+cover/
+
+# ---------- Type checkers and linters ----------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+cython_debug/
+
+# ---------- LangChain, LangGraph, LangSmith ----------
+**/.langgraph_api/
+.langgraph_checkpoint*
+*.sqlite
+*.sqlite3
+*.db
+
+# ---------- Logs and temp files ----------
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# ---------- macOS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ---------- Editors and IDEs ----------
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+.cursorignore
+.cursorindexingignore
+.abstra/
+
+# ---------- Docs and misc tools ----------
+docs/_build/
+/site
+.pybuilder/
+target/
+.webassets-cache
+.scrapy
+celerybeat-schedule
+celerybeat.pid
+marimo/_static/
+marimo/_lsp/
+__marimo__/
