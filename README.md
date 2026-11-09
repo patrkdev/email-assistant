@@ -18,7 +18,7 @@ You need Python 3.13 and [uv](https://docs.astral.sh/uv/).
 ```bash
 git clone https://github.com/patrkdev/email-assistant.git
 cd email-assistant
-uv sync          # or: uv add -r requirements.txt on a fresh project
+uv sync
 ```
 
 Create a `.env` file next to `email_assistant.py` (copy `.env.example`):
